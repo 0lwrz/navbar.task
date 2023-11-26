@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 2000px;
+  background-color: #eee;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.active {
+  font-weight: bold;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  padding: 10px 0px;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header .logo img {
+  width: 37px;
+}
+header .logo a {
+  color: #545be8;
+  font-family: Roboto;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  text-transform: capitalize;
+}
+header nav ul li a {
+  color: #101928;
+}
+header .auth {
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header .auth a {
+  padding: 5.354px 25.181px;
+  border-radius: 14px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+header .auth .login {
+  color: #545be8;
+  border: 2px solid #545be8;
+}
+header .auth .register {
+  color: #fff;
+  background-color: #545be8;
+}
